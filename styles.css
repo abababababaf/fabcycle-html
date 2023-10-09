@@ -16,6 +16,10 @@
   }
 }
 
+div {
+  font-size: 1.25rem;
+}
+
 .icon-square {
   width: 3rem;
   height: 3rem;
@@ -70,4 +74,8 @@
 
 h3 {
   text-shadow: 3px 3px black;
+}
+
+h5 {
+  font-size: 1.5rem;
 }

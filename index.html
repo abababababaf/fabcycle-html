@@ -32,10 +32,10 @@
             >
               <ul class="d-flex justify-content-end">
                 <li><a href="./index.html">Home</a></li>
-                <li><a href="./public/about.html">About Us</a></li>
+                <li><a href="#">About Us</a></li>
                 <li><a href="./public/buy.html">Buy</a></li>
-                <li><a href="#">Sell</a></li>
-                <li><a href="./public/contact.html">Contact Us</a></li>
+                <li><a href="./public/sell.html">Sell</a></li>
+                <li><a href="./public/contact-us.html">Contact Us</a></li>
               </ul>
             </nav>
             <button
@@ -58,7 +58,7 @@
           >
             <div class="offcanvas-header">
               <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                Offcanvas
+                Fabcycle
               </h5>
               <button
                 type="button"
@@ -75,7 +75,7 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
+                  <a class="nav-link" href="#">About Us</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a
@@ -85,33 +85,25 @@
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Dropdown
+                    Store
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
                     <li>
-                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="./public/buy.html">Buy</a>
                     </li>
                     <li>
-                      <hr class="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Something else here</a>
+                      <a class="dropdown-item" href="./public/sell.html"
+                        >Sell</a
+                      >
                     </li>
                   </ul>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./public/contact-us.html"
+                    >Contact Us</a
+                  >
+                </li>
               </ul>
-              <form class="d-flex mt-3" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button class="btn btn-outline-success" type="submit">
-                  Search
-                </button>
-              </form>
             </div>
           </div>
         </div>
@@ -125,7 +117,7 @@
             <img
               src="./assets/images/hero.png"
               class="d-block mx-lg-auto img-fluid"
-              alt="Bootstrap Themes"
+              alt="logo1"
               width="700"
               height="500"
               loading="lazy"
@@ -141,40 +133,44 @@
               Sell your old clothes and <br />Buy upcyled clothes
             </p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <button type="button" class="btn btn-dark btn-lg px-4 me-md-2">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="25"
-                  height="25"
-                  fill="currentColor"
-                  class="bi bi-bag-heart"
-                  viewBox="0 1 17 15"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5Zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0ZM14 14V5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1ZM8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"
-                  />
-                </svg>
-                Buy
-              </button>
-              <button
-                type="button"
-                class="btn btn-outline-secondary btn-lg px-4"
+              <a href="./public/buy.html"
+                ><button type="button" class="btn btn-dark btn-lg px-4 me-md-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="25"
+                    height="25"
+                    fill="currentColor"
+                    class="bi bi-bag-heart"
+                    viewBox="0 1 17 15"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5Zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0ZM14 14V5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1ZM8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"
+                    />
+                  </svg>
+                  Buy
+                </button></a
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="25"
-                  height="25"
-                  fill="currentColor"
-                  class="bi bi-bag-heart-fill"
-                  viewBox="0 1 17 15"
+              <a href="./public/sell.html"
+                ><button
+                  type="button"
+                  class="btn btn-outline-secondary btn-lg px-4"
                 >
-                  <path
-                    d="M11.5 4v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5ZM8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1Zm0 6.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"
-                  />
-                </svg>
-                Sell
-              </button>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="25"
+                    height="25"
+                    fill="currentColor"
+                    class="bi bi-bag-heart-fill"
+                    viewBox="0 1 17 15"
+                  >
+                    <path
+                      d="M11.5 4v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5ZM8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1Zm0 6.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"
+                    />
+                  </svg>
+                  Sell
+                </button></a
+              >
             </div>
           </div>
         </div>
@@ -469,10 +465,10 @@
       <div class="container">
         <h2 class="pb-5 display-6 mb-5">Store</h2>
         <div class="row d-flex justify-content-center align-items-center p-0">
-          <div class="card col-md-4 col-12 me-5 mb-5" style="height: 500px">
+          <div class="card col-md-4 col-12 me-5 mb-5" style="height: 650px">
             <img
               src="./assets/images/buy.png"
-              class="card-img-top pt-4 pb-5 mt-2"
+              class="card-img-top pt-4"
               alt="..."
             />
             <div class="card-body">
@@ -481,10 +477,10 @@
                 Purchase our highest quality upcycled fabrics. Its fashionable
                 and eco-friendly.
               </p>
-              <a href="#" class="btn btn-primary">Buy</a>
+              <a href="./public/buy.html" class="btn btn-primary">Buy</a>
             </div>
           </div>
-          <div class="card col-md-4 col-12 ms-5 mb-5" style="height: 500px">
+          <div class="card col-md-4 col-12 ms-5 mb-5" style="height: 650px">
             <img
               src="./assets/images/sell.png"
               class="card-img-top sell-img pt-4"
@@ -496,7 +492,7 @@
                 Sell your old fabrics to gain exciting rewards such as credits
                 and coupons.
               </p>
-              <a href="#" class="btn btn-primary">Sell</a>
+              <a href="./public/sell.html" class="btn btn-primary">Sell</a>
             </div>
           </div>
         </div>
